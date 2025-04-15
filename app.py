@@ -6,7 +6,7 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from PIL import Image
 
 # Load model
-model = load_model("plant_disease_final_clean.h5") # Make sure this file is in the same directory
+model = load_model("final_streamlit_model.h5")  # Make sure this file is in the same directory
 
 # Class names (update if needed)
 class_names = ['Pepper__bell___Bacterial_spot', 'Pepper__bell___healthy', 'Potato___Early_blight',
